@@ -1,0 +1,111 @@
+@media screen and (max-width: 1150px){
+
+    /* ----- BAR TOP (LOGO AND SOCIAL) ----- */
+
+    main, .content{
+        width: 90%;
+    }
+
+    .logo {
+        width: 100%;
+        height: 1em;
+    }
+
+    .img_logo{
+        background-image: url(../images/org.jpeg);
+        background-position: center;
+    }
+
+    /* ----- MENU BAR WITH SEARCH BOX ------ */
+
+    .header-2{
+        width: 100%;
+        padding: 0em;
+    }
+
+    .menu-url{
+        height: 3.5em;
+    }
+
+    .menu{
+        width: 65%;
+    }
+
+    .menu ul{
+        margin-left: 0.7em; 
+        align-items: center;
+    }
+
+    .menu ul li{
+        margin-right: 0 auto;
+        padding: 0.3em;
+        height: 2.7em;
+    }
+
+    .menu ul li a {
+        font-size: 1em;    
+    }
+
+    .search{
+        width: 30%;
+        text-align: center;
+    }
+
+    /* ----- SLIDES OF SITE ----- */
+
+    .slider-principal img{
+        width: 100%;
+        height: 22em;
+    }
+
+    button.slick-next{
+        display: none!important;
+    }
+
+    button.slick-prev{
+        display: none!important;
+    }
+
+    .slick-dots{
+        top: 315px;
+    }
+
+    /* ----- TEXT IN DESTAK ----- */
+
+    .text-destak{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text-destak h1{
+        font-size: 1.7em!important;
+        color: #5a5a5a;
+    }
+
+    .text-destak p {
+        font-size: 1em;
+        color: #8b8b8b;
+    }
+
+    .colum-3{
+        width: 33%;
+        padding: 0.9em;
+        float: left;
+    }
+
+    .text_block{
+        margin-top: 15px;    
+    }
+
+    .col_on-100 #center-card {
+        margin-top: 3em;
+      }
+
+      /* ----- Highlites of blog----- */
+
+      /* ----- FOOTER ----- */
+
+      .footer-1{
+        height: 4.2em;
+    }
+}

@@ -1,0 +1,98 @@
+@media screen and (max-width: 700px){
+
+    /* ----- BAR TOP (LOGO AND SOCIAL) ----- */
+
+    main, .content{
+        width: 100%;
+    }
+
+    .logo {
+        width: 100%;
+        height: 1em;
+    }
+
+    .img_logo{
+        background-image: url(../images/org.jpeg);
+        background-position: center;
+    }
+
+    .social {
+        padding-right: 1em;
+        width: 30%;
+    }
+
+    /* ----- MENU BAR WITH SEARCH BOX ------ */
+
+    .header-2{
+        width: 100%;
+        padding: 0em;
+    }
+
+    .menu-url{
+        height: 3.5em;
+    }
+
+    .menu{
+        width: 100%;
+    }
+
+    .menu ul{
+        margin-left: 0.7em; 
+    }
+
+    .menu ul li{
+        margin-right: 0 auto;
+        padding: 0.3em;
+        height: 1em;
+    }
+
+    .menu ul li a {
+        font-size: 1em;    
+    }
+
+    /* ----- SLIDES OF SITE ----- */
+
+    .slider-principal img{
+        width: 100%;
+        height: 14em;
+    }
+
+    /* ----- TEXT IN DESTAK ----- */
+
+    .text-destak{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text-destak h1{
+        font-size: 1.7em!important;
+        color: #5a5a5a;
+    }
+
+    .text-destak p {
+        font-size: 1em;
+        color: #8b8b8b;
+    }
+
+    .colum-3{
+        width: 100%;
+        padding: 0.9em;
+        float: none;
+    }
+
+    .text_block{
+        margin-top: 15px;    
+    }
+
+    .col_on-100 #center-card {
+        margin-top: 0.9em;
+      }
+
+      /* ----- Highlites of blog----- */
+
+      /* ----- FOOTER ----- */
+
+      .footer-1{
+        height: 4.2em;
+    }
+}

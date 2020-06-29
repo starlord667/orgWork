@@ -1,0 +1,135 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+ul {
+  padding: 0px !important;
+}
+
+/* ----- BAR TOP (LOGO AND SOCIAL) ----- */
+
+.navbar{
+  background-color: #38B6FF;
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+.navbar-brand{
+  margin-left: 5%;
+}
+
+.navbar-brand img{
+  height: 50px;
+  margin-left: 5%;
+}
+
+/* ----- SLIDES OF SITE ----- */
+
+button.slick-prev {
+  font-size: 0;
+  border: none;
+  height: 55px;
+  width: 55px;
+  background-color: transparent;
+  background-image: url("../images/icons/ic_prev_arrow.png");
+  position: absolute;
+  z-index: 9;
+  top: 341px;
+  left: 15%;
+}
+
+button.slick-next {
+  font-size: 0;
+  border: none;
+  height: 55px;
+  width: 55px;
+  background-color: transparent;
+  background-image: url("../images/icons/ic_next_arrow.png");
+  position: absolute;
+  z-index: 9;
+  top: 341px;
+  right: 15%;
+}
+
+.slider-principal {
+  width: 100%;
+}
+
+.slick-dots {
+  margin: 0 auto;
+  width: 50%;
+  float: left;
+  position: absolute;
+  left: 25%;
+  top: 674px;
+  text-align: center;
+}
+
+.slick-dots li {
+  padding-left: 12px;
+  display: inline-block;
+}
+
+.slick-dots li button {
+  font-size: 0em;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  outline: none;
+  width: 18px;
+  height: 18px;
+  background-color: rgb(153, 153, 153);
+}
+
+li.slick-active button {
+  background-color: #38b6ffb4;
+}
+
+.slick-initialized {
+  overflow: hidden;
+}
+
+/* ----- TEXT IN DESTAK ----- */
+
+.text-destak {
+  padding: 25px;
+  text-transform: uppercase;
+  color: #7c7c7c;
+  text-align: center;
+}
+
+.text-destak p {
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #a0a0a0;
+}
+
+.text-block {
+  margin-top: 15px;
+}
+
+#center-card {
+  margin-top: 60px;
+}
+
+/* ----- Form to contact us----- */
+.col h3{
+  padding: 3px;
+  margin-left: 30%;
+  margin-bottom: 20px;
+}
+
+.form-group label{
+  font-size: 20px;
+  color: #000000;
+  text-transform: capitalize;
+}
+
+/* ----- FOOTER ----- */
+
+.footer-1{
+    background-color: #1a1a1a;
+    height: 120px;
+}
