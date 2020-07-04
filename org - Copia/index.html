@@ -4,8 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css local -->
     <link rel="stylesheet" type="text/css" href="./css/main.css">
     <link rel="stylesheet" type="text/css" href="./css/slick.css" />
+    <!-- css online -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- css responsive -->
@@ -83,12 +86,29 @@
     </div>
 
     <div class="row">
-        <div class="col">
-            <h3>Download</h3>
-            <button type="button" class="btn btn-outline-primary">Get App</button>
+        <div class="col-6 social_download">
+            <div class="download">
+                <h3>download</h3>
+                <div class="btn_download">
+                    <button type="button" class="btn btn-outline-primary">get app</button>
+                    <span> for android</span>
+                    <br>
+                    <br>
+                    <button type="button" class="btn btn-outline-primary disabled">get app</button>
+                    <span> for IOS (in work)</span>
+                </div>
+            </div>
+
+            <div class="social">
+                <h3 id="so">follow us</h3>
+                <div class="btn_social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                </div>
+            </div>
         </div>
 
-        <div class="col">
+        <div class="col-6">
             <h3>Contact Us</h3>
             <form>
                 <div class="form-group">
@@ -108,6 +128,21 @@
               </form>
         </div>
     </div>
+
+
+    <footer>
+        <div id="contact-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>
+                            Desenvolvido pela <a href="">OrgWork</a> &copy; 2020
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <!-- online -->
 

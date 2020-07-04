@@ -8,6 +8,10 @@ ul {
   padding: 0px !important;
 }
 
+.row{
+  max-width: 100%;
+}
+
 /* ----- BAR TOP (LOGO AND SOCIAL) ----- */
 
 .navbar{
@@ -114,7 +118,53 @@ li.slick-active button {
   margin-top: 60px;
 }
 
+/* ----- SOCIAL_DOWNLOAD AREA ----- */
+
+.social_download{
+  font-size: 20px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.social_download h3{
+  margin-bottom: 23px;
+}
+
+.social_download .btn_download {
+  text-align: left;
+  margin-left: 10em;
+  padding-bottom: 10px;
+}
+
+.social_download .social{
+  margin-top: 50px;
+}
+
+.fa {
+  /* padding: 20px; */
+  font-size: 35px!important;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
 /* ----- Form to contact us----- */
+
 .col h3{
   padding: 3px;
   margin-left: 30%;
@@ -129,7 +179,10 @@ li.slick-active button {
 
 /* ----- FOOTER ----- */
 
-.footer-1{
-    background-color: #1a1a1a;
-    height: 120px;
+footer{
+  font-size: 16px;
+  text-align: center;
+  color: #a0a0a0;
+  background-color: #1a1a1a;
+  margin-top: 19px;
 }
