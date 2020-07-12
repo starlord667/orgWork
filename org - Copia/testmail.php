@@ -1,20 +1,29 @@
 <?php
-    ini_set('display_errors', 1);
-    error_reporting(E_ALL);
     
+    $GetParam = filter_input_array(INPUT_POST, FILTER_DEFAULT);
+
+    //variaveis do formulario
+    $name = $GetParam['InputName'];
+    $email = $GetParam['InputEmail'];
+    $msg = $GetParam['Comment'];
+    $type = gettext($GetParam['options']);
+
     
     // variables
-    $from = $_POST['InputEmail'];
     $to = "contato.fabioazevedo@gmail.com";
-    $subject = "Comment Or Error from " . $_POST['InputName'];
-    $message = $_POST['Comment'];
-    $headers = "De:". $from;
+    $subject = $type . " from " . $name;
+    $headers = "De: ". $email;
 
     // validate and send
     if($_POST['InputName'] == "" || $_POST['Comment'] == "" || $_POST['InputEmail'] == ""){
         
     }else{
-        mail($to, $subject, $message, $headers);
+        $msg .= "\n";
+        $msg .= $headers;
+        mail($email, $subject, $msg, $headers);
+        
+        //  var_dump($GetParam);
+        //  echo $type;
     }    
     
 

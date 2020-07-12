@@ -120,21 +120,36 @@
             ?>
             <form action="testmail.php" method="POST">
                 <div class="form-group">
-                  <label for="exampleInputEmail1">email</label>
-                  <input type="email" class="form-control" id="InputEmail" name="InputEmail" aria-describedby="emailHelp" placeholder="Your email">
-                  <small id="emailHelp" class="form-text text-muted">We never share your email address</small>
+                    <label for="exampleInputEmail1">email</label>
+                    <input type="email" class="form-control" id="InputEmail" name="InputEmail" aria-describedby="emailHelp" placeholder="Your email">
+                    <small id="emailHelp" class="form-text text-muted">We never share your email address</small>
                 </div>
                 <div class="form-group">
-                  <label for="exampleInputName">name</label>
-                  <input type="text" class="form-control" id="InputName" name="InputName" placeholder="Name">
+                    <label for="exampleInputName">name</label>
+                    <input type="text" class="form-control" id="InputName" name="InputName" placeholder="Name">
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlTextarea1">your comment or problem</label>
+                    <label for="exampleFormControlTextarea1">your comment</label>
                     <textarea class="form-control" id="Comment" name="Comment" rows="3"></textarea>
-                  </div>
+                </div>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-secondary active">
+                        <input type="radio" name="options" id="option1" value="Answer" autocomplete="off"> Answer
+                    </label>
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option2" value="Sugest" autocomplete="off"> Sugest
+                    </label>
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option3" value="Bug Report" autocomplete="off"> Bug Report
+                    </label>
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option3" value="Others" autocomplete="off"> Others
+                    </label>
+                </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
-              <?php 
+            </form>
+            
+            <?php 
                 } else {
                 
                 }
