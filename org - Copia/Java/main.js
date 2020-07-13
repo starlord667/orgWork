@@ -1,37 +1,38 @@
-// Event MenuScrool
-
-var _controlNav = false;
-$(document).scroll(function (e){
-    var scrollTop = $(document).scrollTop();
-
-    if(scrollTop > $('.menu').heigth()){
-
-        if(_controlNav == false){
-            $('.menu').addClass('fixed-top');
-            $('.menu').hide();
-            $('.menu').fadeIn('slow');
-            _controlNav = true;
-        }
-
-    }else{
-
-    }
-});
+var firebaseConfig = {
+    apiKey: "AIzaSyBZfK_mV1niEDZ4y3zUrTfMxaDtkQaitGI",
+    authDomain: "orgwork-bb36e.firebaseapp.com",
+    databaseURL: "https://orgwork-bb36e.firebaseio.com",
+    projectId: "orgwork-bb36e",
+    storageBucket: "orgwork-bb36e.appspot.com",
+    messagingSenderId: "614984508605",
+    appId: "1:614984508605:web:05a60c95b5ac706f78c3d4",
+    measurementId: "G-BW0Q48HR86"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+firebase.analytics();
 
 
+function imagesBanner(){
+    
+    var imagesRef = storageRef.child('images');
+    
+    imagesRef.forEach(element => {
+        var spaceRef = imagesRef.child(fileName);
 
+        // File path is 'images/space.jpg'
+        var path = spaceRef.fullPath
+        documentWrite(path);
+    });
+}
 
-// Slick Dots setup
+function documentWrite(path){
+    document.write('<div class="carousel-item active"> <img class="d-block w-100" src="');
+    document.write(path);
+    document.write('" alt="Primeiro Slide"> </div>');
 
-$('.slider-principal').slick({
-    dots:true,
-    infinite:true,
-    slidesToShow: 1,
-    slidesToScroll: 1
-    // ,
-    // autoplay: true,
-    // autoplaySpeed: 3500
-});
+}
+
 
 // Musicas
 // goosetaf - clear skies ft. HM surf
