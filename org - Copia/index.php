@@ -47,10 +47,43 @@
         </div>
     </nav>
     
-    <div class="slider-principal">
-        <img src="./images/imageStudy.jpeg">
-        <img src="./images/imageStudy.jpeg">
-        <img src="./images/imageStudy.jpeg">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="https://firebasestorage.googleapis.com/v0/b/orgwork-bb36e.appspot.com/o/blog_images%2Fimage%3A431161?alt=media&token=6d3d4437-60a8-4d03-b1c2-5ade9634f8b0" alt="Primeiro Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>...</h5>
+                    <p>...</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="https://firebasestorage.googleapis.com/v0/b/orgwork-bb36e.appspot.com/o/blog_images%2Fimage%3A17?alt=media&token=f813d382-bba0-4199-891a-7ec1ee55cd76" alt="Segundo Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>...</h5>
+                    <p>...</p>
+                </div>
+            </div>  
+            <div class="carousel-item">
+                <img class="d-block w-100" src="https://firebasestorage.googleapis.com/v0/b/orgwork-bb36e.appspot.com/o/blog_images%2Fimage%3A431168?alt=media&token=9014e3f2-5021-43cb-83b1-1e49a0608171" alt="Terceiro Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>...</h5>
+                    <p>...</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
     </div>
 
     <div class="container text-destak">
@@ -180,9 +213,9 @@
 
     <!-- locais -->
     
-    <script type="text/javascript" src="./Java/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="./Java/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="./Java/slick.min.js"></script>
+    <!-- // <script type="text/javascript" src="./Java/jquery-1.11.0.min.js"></script>
+    // <script type="text/javascript" src="./Java/jquery-migrate-1.2.1.min.js"></script>
+    // <script type="text/javascript" src="./Java/slick.min.js"></script> -->
     <script type="text/javascript" src="./Java/main.js"></script>
 </body>
 
