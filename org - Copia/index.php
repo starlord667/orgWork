@@ -41,7 +41,7 @@
                     <a class="nav-link" href="#">Blog</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Help??</a>
+                    <a class="nav-link" href="#">HelP</a>
                 </li>
             </ul>
         </div>
@@ -116,7 +116,7 @@
                     <br>
                     <br>
                     <button type="button" class="btn btn-outline-primary disabled">get app</button>
-                    <span> for IOS (in work)</span>
+                    <span> for IOS (IN development)</span>
                 </div>
             </div>
 
