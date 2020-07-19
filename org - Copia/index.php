@@ -48,23 +48,26 @@
     </nav>
     
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
         <div class="carousel-inner">
-
-            <script>
-                imagesBanner();
-            </script>
-
+            <div class="carousel-item active">
+                <!-- <iframe class="d-block w-100" src="https://m.youtube.com/watch?rel=0&v=18Uwg97Td7c" alt="..."> -->
+                <div class="embed-responsive embed-responsive-4by3 w-100">
+                    <iframe class="embed-responsive" src="https://www.youtube.com/embed/18Uwg97Td7c"></iframe>
+                </div>
+             </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/logo.png" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>...</h5>
+                  <p>...</p>
+                </div>
+              </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <a class="carousel-control-prev sla" href="#carouselExampleControls" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Anterior</span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <a class="carousel-control-next sla" href="#carouselExampleControls" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Próximo</span>
         </a>
@@ -137,17 +140,13 @@
             ?>
             <form action="testmail.php" method="POST">
                 <div class="form-group">
-                    <label for="exampleInputEmail1">email</label>
-                    <input type="email" class="form-control" id="InputEmail" name="InputEmail" aria-describedby="emailHelp" placeholder="Your email">
-                    <small id="emailHelp" class="form-text text-muted">We never share your email address</small>
-                </div>
-                <div class="form-group">
                     <label for="exampleInputName">name</label>
                     <input type="text" class="form-control" id="InputName" name="InputName" placeholder="Name">
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlTextarea1">your comment</label>
-                    <textarea class="form-control" id="Comment" name="Comment" rows="3"></textarea>
+                    <label for="exampleInputEmail1">email</label>
+                    <input type="email" class="form-control" id="InputEmail" name="InputEmail" aria-describedby="emailHelp" placeholder="Your email">
+                    <small id="emailHelp" class="form-text text-muted">We never share your email address</small>
                 </div>
                 <div class="btn-group btn-group-toggle" data-toggle="buttons">
                     <label class="btn btn-secondary active">
@@ -163,6 +162,11 @@
                         <input type="radio" name="options" id="option3" value="Others" autocomplete="off"> Others
                     </label>
                 </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">your comment</label>
+                    <textarea class="form-control" id="Comment" name="Comment" rows="3"></textarea>
+                </div>
+                
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
             
@@ -197,10 +201,7 @@
 
     <!-- locais -->
     
-    <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-analytics.js"></script>
-    <script type="text/javascript" src="./Java/main.js">
-</script>
+    <script type="text/javascript" src="./Java/main.js"></script>
 
 </body>
 

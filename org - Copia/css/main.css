@@ -31,7 +31,7 @@ ul {
 }
 
 /* ----- SLIDES OF SITE ----- */
-
+/* java */
 button.slick-prev {
   font-size: 0;
   border: none;
@@ -62,9 +62,6 @@ button.slick-next {
   width: 100%;
 }
 
-.w-100 {
-    height: 46em;
-}
 .slick-dots {
   margin: 0 auto;
   width: 50%;
@@ -98,6 +95,15 @@ li.slick-active button {
   overflow: hidden;
 }
 
+/* bootstrap */
+.w-100 {
+    height: 46em;
+}
+
+.sla {
+    max-height: 50%!important;
+    margin-top: 10%;
+}
 /* ----- TEXT IN DESTAK ----- */
 
 .text-destak {
