@@ -29,7 +29,7 @@
         <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current page)</span></a>
+                    <a class="nav-link" href="#">Inicio<span class="sr-only">(pagina atual)</span></a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="#download">Obter App</a>
@@ -56,32 +56,38 @@
     </div>
 
     <div class="container text-destak" id="about">
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores harum pariatur, provident quibusdam vero
-            eius odio officia voluptates ab maiores? Suscipit dicta rem voluptas possimus voluptatum accusantium
-            nobis, maiores animi!</p>
+        <h1>Sobre nós</h1>
+        <p>Nossa história começa agora no ano de 2020, onde iniciamos nossa empreitada no desenvolvimento de aplicativos e com 
+            a oportunidade de desenvolver um projeto para apresentação no trabalho de conclusão de curso. Criamos aplicativos 
+            para a Plataforma Android sob medida para atender as necessidades de cada cliente. Trabalhando forte para entregar 
+            às pessoas e empresas a melhor aplicação, buscando assim facilitar o cotidiano e a qualidade de vida das pessoas.
+        </p>
         
         <div class="row">            
             <div class="col-sm-4 text-block">
                 <img src="./images/icons/ic_mision.png" alt="">
-                <h3>Lorem ipsum dolor sit amet consectetur adipisicing</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, porro at, recusandae nisi
-                    labore ea, pariatur dolorum soluta vero unde adipisci excepturi repellat expedita qui ducimus
-                    explicabo quidem ad beatae!</p>
+                <h3>Missão</h3>
+                <p>
+                    Engajar às pessoas em seu foco nos estudos, buscando facilitar seu meio de organização academica
+                    e também ser seu melhor caminho nos quisitos de informação segura e confiavel para que possam realizar
+                    seus sonhos, sem jamais desistirem. 
+                </p>
             </div>
             <div class="col-sm-4 text-block" id="center-card">
                 <img src="./images/icons/ic_vision.png" alt="">
-                <h3>Lorem ipsum dolor sit amet consectetur adipisicing</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius blanditiis deleniti impedit.
-                    Tenetur nesciunt veritatis expedita laudantium saepe. Rerum tempore ipsa sint facilis natus tempora
-                    ullam! Quo, id odio.</p>
+                <h3>Visão</h3>
+                <p>
+                    Ser uma empresa transparente, que tenha total confiança de seus clientes,
+                    sendo mais próximo dos mesmos e podendo ajudar as pessoas com seus problemas como a 
+                    falta de foco, desmotivação, e se possivel erradicar esses problemas.
+                </p>
             </div>
             <div class="col-sm-4 text-block">
                 <img src="./images/icons/ic_values.png" alt="">
-                <h3>Lorem ipsum dolor sit amet consectetur adipisicing</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, ullam officia! Veniam
-                    delectus, non inventore quaerat in, fugiat et architecto autem vero commodi excepturi accusamus
-                    eveniet at quis ipsum iure?
+                <h3>Valores</h3>
+                <p>
+                    Trabalhar com clareza, integridade, responsabilidade, foco, competência e seriedade, sempre com respeito à vida
+                    e as coisas boas que vem com ela, ser uma empresa fiel à veracidade  das informações que são passadas.
                 </p>
             </div>
         </div>
@@ -94,14 +100,11 @@
     <div class="row things">
         <div class="col-sm-6 social_download">
             <div class="download" id="download">
-                <h3>download</h3>
+                <h3>Download</h3>
                 <div class="btn_download">
                     <a href='https://play.google.com/store/apps/details?id=com.orgwork.renewed"&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Disponível no Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/pt-br_badge_web_generic.png'/></a>
                     <br>
                     <br>
-                    <button type="button" class="btn btn-outline-primary disabled">Obter app</button>
-                    <span>IOS (em desenvolvimento)</span>
-                </div>
             </div>
 
             <div class="social">
@@ -131,16 +134,16 @@
                 </div>
                 <div class="btn-group btn-group-toggle" data-toggle="buttons">
                     <label class="btn btn-secondary active">
-                        <input type="radio" name="options" id="option1" value="Answer" autocomplete="off"> pergunta
+                        <input type="radio" name="options" id="option1" value="Answer" autocomplete="off">pergunta
                     </label>
                     <label class="btn btn-secondary">
-                        <input type="radio" name="options" id="option2" value="Sugest" autocomplete="off"> sugestão
+                        <input type="radio" name="options" id="option2" value="Sugest" autocomplete="off">sugestão
                     </label>
                     <label class="btn btn-secondary">
-                        <input type="radio" name="options" id="option3" value="Bug Report" autocomplete="off"> reportar bug
+                        <input type="radio" name="options" id="option3" value="Bug Report" autocomplete="off">reportar bug
                     </label>
                     <label class="btn btn-secondary">
-                        <input type="radio" name="options" id="option3" value="Others" autocomplete="off"> outros
+                        <input type="radio" name="options" id="option3" value="Others" autocomplete="off">outros
                     </label>
                 </div>
                 <div class="form-group">
