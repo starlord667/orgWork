@@ -115,7 +115,7 @@ li.slick-active button {
 
 .text-destak p {
   font-size: 18px;
-  text-transform: capitalize;
+  text-transform: none;
   color: #a0a0a0;
 }
 
@@ -152,7 +152,7 @@ li.slick-active button {
 
 .social_download{
   font-size: 20px;
-  text-transform: capitalize;
+  text-transform: none;
   text-align: center;
 }
 

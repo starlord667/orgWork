@@ -97,26 +97,27 @@
         <img src="images/icons/ic8_up.png" alt="">
     </div>
 
-    <div class="row things">
+    <div class="row things" id="download">
         <div class="col-sm-6 social_download">
-            <div class="download" id="download">
-                <h3>Download</h3>
+            <div class="download">
+                <h3>download</h3>
                 <div class="btn_download">
-                    <a href='https://play.google.com/store/apps/details?id=com.orgwork.renewed"&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Disponível no Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/pt-br_badge_web_generic.png'/></a>
-                    <br>
-                    <br>
+                    <a href='https://play.google.com/store/apps/details?id=com.orgwork.renewed"&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+                        <img width="150px" alt='Disponível no Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/pt-br_badge_web_generic.png'/>
+                    </a>
+                </div>
             </div>
 
             <div class="social">
-                <h3 id="so">Siga nos</h3>
+                <h3 id="so">follow us</h3>
                 <div class="btn_social">
                     <a href="https://www.facebook.com/orgworkBR/" class="fa fa-facebook"></a>
-                    <a href="https://twitter.com/home" class="fa fa-twitter"></a>
+                    <a href="https://twitter.com/OrgWork_?s=20" class="fa fa-twitter"></a>
                 </div>
             </div>
         </div>
-
-        <div class="col-sm-6" id="help">
+        
+        <div class="col-6" id="help">
             <h3>Contate-nos</h3>
             <?php 
             if($_SERVER['REQUEST_METHOD'] !== 'POST') { 
