@@ -32,16 +32,13 @@
                     <a class="nav-link" href="#">Home <span class="sr-only">(current page)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Get App</a>
+                    <a class="nav-link" href="#download">Obter App</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#about">Sobre</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Blog</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">HelP</a>
+                    <a class="nav-link" href="#help">Ajuda?</a>
                 </li>
             </ul>
         </div>
@@ -54,47 +51,32 @@
                 <div class="embed-responsive embed-responsive-4by3 w-100">
                     <iframe class="embed-responsive" src="https://www.youtube.com/embed/18Uwg97Td7c"></iframe>
                 </div>
-             </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="images/logo.png" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>...</h5>
-                  <p>...</p>
-                </div>
-              </div>
+            </div>
         </div>
-        <a class="carousel-control-prev sla" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Anterior</span>
-        </a>
-        <a class="carousel-control-next sla" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Próximo</span>
-        </a>
     </div>
 
-    <div class="container text-destak">
+    <div class="container text-destak" id="about">
         <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores harum pariatur, provident quibusdam vero
             eius odio officia voluptates ab maiores? Suscipit dicta rem voluptas possimus voluptatum accusantium
             nobis, maiores animi!</p>
         
         <div class="row">            
-            <div class="col-4 text-block">
+            <div class="col-sm-4 text-block">
                 <img src="./images/icons/ic_mision.png" alt="">
                 <h3>Lorem ipsum dolor sit amet consectetur adipisicing</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, porro at, recusandae nisi
                     labore ea, pariatur dolorum soluta vero unde adipisci excepturi repellat expedita qui ducimus
                     explicabo quidem ad beatae!</p>
             </div>
-            <div class="col-4 text-block" id="center-card">
+            <div class="col-sm-4 text-block" id="center-card">
                 <img src="./images/icons/ic_vision.png" alt="">
                 <h3>Lorem ipsum dolor sit amet consectetur adipisicing</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius blanditiis deleniti impedit.
                     Tenetur nesciunt veritatis expedita laudantium saepe. Rerum tempore ipsa sint facilis natus tempora
                     ullam! Quo, id odio.</p>
             </div>
-            <div class="col-4 text-block">
+            <div class="col-sm-4 text-block">
                 <img src="./images/icons/ic_values.png" alt="">
                 <h3>Lorem ipsum dolor sit amet consectetur adipisicing</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, ullam officia! Veniam
@@ -110,64 +92,63 @@
     </div>
 
     <div class="row things">
-        <div class="col-6 social_download">
-            <div class="download">
+        <div class="col-sm-6 social_download">
+            <div class="download" id="download">
                 <h3>download</h3>
                 <div class="btn_download">
-                    <button type="button" class="btn btn-outline-primary">get app</button>
-                    <span> for android</span>
+                    <a href='https://play.google.com/store/apps/details?id=com.orgwork.renewed"&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Disponível no Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/pt-br_badge_web_generic.png'/></a>
                     <br>
                     <br>
-                    <button type="button" class="btn btn-outline-primary disabled">get app</button>
-                    <span> for IOS (IN development)</span>
+                    <button type="button" class="btn btn-outline-primary disabled">Obter app</button>
+                    <span>IOS (em desenvolvimento)</span>
                 </div>
             </div>
 
             <div class="social">
-                <h3 id="so">follow us</h3>
+                <h3 id="so">Siga nos</h3>
                 <div class="btn_social">
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="https://www.facebook.com/orgworkBR/" class="fa fa-facebook"></a>
+                    <a href="https://twitter.com/home" class="fa fa-twitter"></a>
                 </div>
             </div>
         </div>
 
-        <div class="col-6">
-            <h3>Contact Us</h3>
+        <div class="col-sm-6" id="help">
+            <h3>Contate-nos</h3>
             <?php 
             if($_SERVER['REQUEST_METHOD'] !== 'POST') { 
             
             ?>
             <form action="testmail.php" method="POST">
                 <div class="form-group">
-                    <label for="exampleInputName">name</label>
+                    <label for="exampleInputName">nome</label>
                     <input type="text" class="form-control" id="InputName" name="InputName" placeholder="Name">
                 </div>
                 <div class="form-group">
                     <label for="exampleInputEmail1">email</label>
                     <input type="email" class="form-control" id="InputEmail" name="InputEmail" aria-describedby="emailHelp" placeholder="Your email">
-                    <small id="emailHelp" class="form-text text-muted">We never share your email address</small>
+                    <small id="emailHelp" class="form-text text-muted">Nós jamais compartilharemos seu email</small>
                 </div>
                 <div class="btn-group btn-group-toggle" data-toggle="buttons">
                     <label class="btn btn-secondary active">
-                        <input type="radio" name="options" id="option1" value="Answer" autocomplete="off"> Answer
+                        <input type="radio" name="options" id="option1" value="Answer" autocomplete="off"> pergunta
                     </label>
                     <label class="btn btn-secondary">
-                        <input type="radio" name="options" id="option2" value="Sugest" autocomplete="off"> Sugest
+                        <input type="radio" name="options" id="option2" value="Sugest" autocomplete="off"> sugestão
                     </label>
                     <label class="btn btn-secondary">
-                        <input type="radio" name="options" id="option3" value="Bug Report" autocomplete="off"> Bug Report
+                        <input type="radio" name="options" id="option3" value="Bug Report" autocomplete="off"> reportar bug
                     </label>
                     <label class="btn btn-secondary">
-                        <input type="radio" name="options" id="option3" value="Others" autocomplete="off"> Others
+                        <input type="radio" name="options" id="option3" value="Others" autocomplete="off"> outros
                     </label>
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlTextarea1">your comment</label>
+                    <label for="exampleFormControlTextarea1">seu comentário</label>
                     <textarea class="form-control" id="Comment" name="Comment" rows="3"></textarea>
                 </div>
                 
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary">enviar</button>
             </form>
             
             <?php 

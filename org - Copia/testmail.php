@@ -10,7 +10,7 @@
 
     
     // variables
-    $to = "contato.fabioazevedo@gmail.com";
+    $to = "support@orgwork.com.br";
     $subject = $type . " from " . $name;
     $headers = "De: ". $email;
 
@@ -20,7 +20,7 @@
     }else{
         $msg .= "\n";
         $msg .= $headers;
-        mail($email, $subject, $msg, $headers);
+        mail($to, $subject, $msg, $headers);
         
         //  var_dump($GetParam);
         //  echo $type;
